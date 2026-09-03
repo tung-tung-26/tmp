@@ -1,0 +1,481 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="jiVR58eQmvzhhD6EEW6q">
+    <mxGraphModel dx="3058" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-37" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="开始" vertex="1">
+          <mxGeometry height="40" width="80" x="-40.03" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-38" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=14;" value="S12TMS协同整车控制器监测充电功率/电机负载/低压负载、各高压冷却集成线束温度、冷却介质温度与流量、线束导体与冷却介质之间的绝缘状态" vertex="1">
+          <mxGeometry height="80" width="400" x="-200.03" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-39" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-48" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="车辆所处工况判定" vertex="1">
+          <mxGeometry height="80" width="240" x="-120.03" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-40" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=14;" value="①充电工况&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve;&quot;&gt;驻车且S34充电口接入有效充电信号，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve;&quot;&gt;主要发热线束为S102~S105&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="480.06" x="-600.06" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-41" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-43" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;充电功率&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;P&amp;lt;P₁&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-440.03" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-42" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-44" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;充电功率P≥P₂&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-440.03" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-47" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="860" />
+              <mxPoint y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;③低冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应泵件低速、支路基础开度、维持基础循环&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-200.03" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-45" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-600" y="860" />
+              <mxPoint y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;④中冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应提升泵速、增大支路阀开度&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-680.0299999999999" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-46" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="860.06" />
+              <mxPoint y="860.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;⑤高冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应泵件与支路阀高档位运行&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="-440.03" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-49" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;②驱动工况&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;非驻车且驱动信号有效，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve;&quot;&gt;主要发热线束为S102和S107&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="480.06" x="119.94" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-50" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-53" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;电机负载 L&amp;lt;L₁&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="279.97" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-51" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-52" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;电机负载 L≥L₂&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="279.97" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-56" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="860" />
+              <mxPoint y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;③低冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应泵件低速、支路基础开度、维持基础循环&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="519.97" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-54" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="860" />
+              <mxPoint y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;④中冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应提升泵速、增大支路阀开度&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="39.97" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-55" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="860.06" />
+              <mxPoint y="860.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;⑤高冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应泵件与支路阀高档位运行&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="279.97" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-96" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-99" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;低压负载工作&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="-120.03" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-58" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-60" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;低压负载 &lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;L&amp;lt;L₃&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="199.97" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-104" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="960" />
+              <mxPoint x="640" y="900" />
+              <mxPoint x="-360" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;③低冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;泵件低速、S106支路基础开度、基础循环&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="439.97" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-105" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1080" />
+              <mxPoint x="640" y="900" />
+              <mxPoint x="-360" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;white-space-collapse: preserve; color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;④中冷却需求&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;提升泵速、增大S106支路阀开度&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="439.97" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-100" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-102" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;低压负载 L≥L₄&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="199.97" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-103" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1200" />
+              <mxPoint x="640" y="900" />
+              <mxPoint x="-360" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;⑤高冷却需求&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;泵件与S106支路阀高档位运行&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="199.97" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-67" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;S12TMS汇总各回路冷却需求，按总需求确定S11压缩机或S15泵件转速，按各回路需求比例分配S14相关阀件及各支路电磁阀开度&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="-520.03" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-81" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-88" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;各支路实测流量达到目标流量&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="-120.03" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-97" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="1080" />
+              <mxPoint x="-560" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;按流量偏差修正对应支路电磁阀开度，并联动调整S11压缩机或S15泵件转速&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="-520.03" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-70" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-89" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;任一所监测高压冷却集成线束温度≥T₂&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="-120.03" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-72" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="1380" />
+              <mxPoint x="160" y="1380" />
+              <mxPoint x="160" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-90" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;任一所监测高压冷却集成线束温度≥T₁&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="-120.03" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-87" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-114" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;冷却介质流量低于预设下限&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="200.00000000000003" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-77" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-115" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-29" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;线束导体与冷却介质之间绝缘状态异常&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="200" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-74" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-80" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-720" y="1560" />
+              <mxPoint x="-720" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-30" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;对应工况结束&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="-120.03" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-92" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-560" y="1200" />
+              <mxPoint x="-560" y="1500" />
+              <mxPoint y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;触发过热保护，&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;逐级降低充电功率或电机输出功率或低压输出功率&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve; color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;直至停止，并发出报警&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="-520.03" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-91" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="1380" />
+              <mxPoint x="160" y="1380" />
+              <mxPoint x="160" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;进一步增大冷却强度，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;S11压缩机或S15泵件转速与对应支路电磁阀开度增至最大&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="320" x="-520.03" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-112" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1320" />
+              <mxPoint x="800" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;判定为流量异常，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;发出报警并限制充电功率或电机输出功率或低压负载功率&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="520.03" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-116" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="d6k6rIw_ZLFsBriKDtkY-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1440" />
+              <mxPoint x="800" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt; 触发漏电保护，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; text-align: start; white-space-collapse: preserve;&quot;&gt;关断对应支路电磁阀，切断相应高压回路，并发出报警&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="520" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=14;" value="结束" vertex="1">
+          <mxGeometry height="40" width="80" x="-40.03" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="充电" vertex="1">
+          <mxGeometry height="30" width="60" x="-260.03" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="驱动" vertex="1">
+          <mxGeometry height="30" width="60" x="179.97" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-128" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;" value="开始" vertex="1">
+          <mxGeometry height="80" width="160" x="1320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-129" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=20;" value="&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; white-space-collapse: collapse; background-color: rgb(236, 236, 236);&quot;&gt;①&lt;/span&gt;实时监测与工况判定&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;监测各物理量并判定充电/驱动工况，低压负载作为叠加情况判断&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="1240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-130" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=20;" value="&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span&gt;②&lt;/span&gt;主动热安全&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;与冷却需求分级&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9);&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;按 P₁/P₂、L₁/L₂、L₃/L₄ 阈值主动分低/中/高三档冷却需求&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="1240" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-131" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=20;" value="&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;③&lt;/span&gt;被动热安全&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;与冷却需求分级&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9);&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;按线束实测温度T₁/T₂被动修正，≥T₁冷却强度增至最大，≥T₂过热保护降功率直至停止并报警&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="1240" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-132" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=20;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, system-ui, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, sans-serif, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;④&lt;/span&gt;热管理与分配&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.9);&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;需求汇总耦合分配，按总需求定泵速、按比例分配阀开度，流量闭环补偿&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="1240" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-133" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;align=center;fontSize=20;" value="&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;⑤&lt;/span&gt;安全冗余保护&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot; face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, system-ui, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif, Arial, PingFang SC, Source Han Sans SC, Microsoft YaHei UI, Microsoft YaHei, Noto Sans CJK SC&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0.9)&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;流量异常时报警并限制功率，绝缘异常时漏电保护、关断支路阀并切断高压回路&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="320" x="1240" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-134" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-135" edge="1" parent="1" source="d6k6rIw_ZLFsBriKDtkY-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" target="d6k6rIw_ZLFsBriKDtkY-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="1520" />
+              <mxPoint x="1160" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-126" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=none;fontSize=20;" value="对应工况结束" vertex="1">
+          <mxGeometry height="160" width="320" x="1240" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontSize=20;" value="结束" vertex="1">
+          <mxGeometry height="80" width="160" x="1320" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="-270" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="-350" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="-500.03" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-139" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="-360" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-144" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="130" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-145" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="279.97" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="279.97" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-148" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="359.97" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-149" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="-180.02999999999997" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="-180.02999999999997" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-153" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-154" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="20.00000000000003" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-157" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="-180.03" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="-180.03" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-159" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-160" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="329.97" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-161" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="110.00000000000003" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-163" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-165" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="-460" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="445.03" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-167" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="365.03" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-168" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="215" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-169" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="355.03" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-170" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="1410" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="d6k6rIw_ZLFsBriKDtkY-171" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="1170" y="860" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
